@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Contacts</Title>
+        <style>
+            .field{margin-bottom: 5px;}
+        </style>
+    </head>
+    <body>
+        <h4>
+            <a href="Loyiha.html">Back to Portfolio</a>
+        </h4>
+        <h3>Contact me</h3>
+        <form action="contact.php" method="GET">
+           <div class="field">
+            <label for="firstname">Firstname</label>
+            <input type="text" name="firstname" id="firstname"> 
+           </div>
+           <div class="field">
+            <label for="lasttname">Firstname</label>
+            <input type="text" name="lasttname" id="lasttname"> 
+           </div>
+           <div class="field">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+           </div>
+           <div class="field">
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message"></textarea>
+           </div>
+           <button type="submit">
+            send
+           </button>
+        </form>
+    </body>
+</html>
