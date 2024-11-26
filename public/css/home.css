@@ -40,6 +40,60 @@
   border-bottom: 2px solid #041e42;
 }
 
+/* PAGINATION */
+
+.container .pagionation_box {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container .pagionation_box .pagination_main {
+  width: auto;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination_main img {
+  cursor: pointer;
+}
+
+.container .pagination_main .pagination_dot {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container .pagination_dot .dot {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.container .pagination_dot .dot.active {
+  border: 2px solid #112137;
+}
+
+.container .pagination_dot .dot div {
+  width: 4px;
+  height: 4px;
+  background-color: #112137;
+}
+
+/* HOME PAGE */
+
 .home_page .header_frame {
   position: relative;
   margin-top: 47px;
@@ -392,6 +446,7 @@
 .next_prew_box img {
   position: absolute;
   top: 50%;
+  cursor: pointer;
 }
 
 .product_wrapper .prodact_boxes {
