@@ -834,3 +834,227 @@
   justify-content: center;
   align-items: center;
 }
+
+/* TOP DEALS */
+
+.top_deals_frame {
+  position: relative;
+  margin-top: 60px;
+  width: 100%;
+  height: 592px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #0053f6;
+  background-image: url(../images/icons/header_bg.svg);
+}
+
+.top_deals_frame .container {
+  flex-direction: row;
+}
+
+.container .top_deals_main {
+  position: relative;
+  width: 1300px;
+  height: 392px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.top_deals_main .top_deal_content {
+  position: relative;
+  margin-right: 15px;
+  width: 334px;
+  height: 214px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.top_deal_content strong {
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+
+.top_deal_content .deal_content_boxes {
+  position: relative;
+  width: 334px;
+  height: 62px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.deal_content_boxes .deal_content_box {
+  position: relative;
+  width: 53px;
+  height: 62px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.deal_content_box span {
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+
+.deal_content_box p {
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.top_deal_content .show_bottom {
+  position: relative;
+  margin-top: 30px;
+  width: 142px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 6px;
+
+  background: rgb(245, 195, 75);
+}
+
+.show_bottom button {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: none;
+  background: rgb(245, 195, 75);
+}
+
+.top_deals_main .deal_info_content {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.deal_info_content .deal_info_content_boxes {
+  position: relative;
+  left: 20px;
+  right: 20px;
+  width: 210px;
+  height: 392px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 6px;
+  background: rgb(255, 255, 255);
+}
+
+.deal_info_content_boxes .deal_img_boxes {
+  position: relative;
+  width: 100%;
+  height: 220px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+}
+
+.deal_img_boxes .deal_img_border_box {
+  position: relative;
+  width: 169px;
+  height: 190px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px dashed rgb(203, 200, 200);
+  background-image: url(/public/images/products/sony_notebook.png);
+}
+
+.deal_info_content_boxes .deal_info_img_boxes {
+  position: relative;
+  width: 100%;
+  height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.prodact_content_box span {
+  color: rgb(98, 105, 116);
+  font-family: Jost;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.prodact_content_box .product_desc {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.prodact_content_box .review_box img {
+  width: 20px;
+  height: 10px;
+}
+
+.prodact_content_box .review_box span {
+  position: relative;
+  color: rgb(98, 105, 116);
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
