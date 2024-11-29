@@ -1009,7 +1009,12 @@
   align-items: center;
 
   border: 1px dashed rgb(203, 200, 200);
-  background-image: url(/public/images/products/sony_notebook.png);
+}
+
+.deal_img_border_box img {
+  position: relative;
+  width: 100%;
+  display: flex;
 }
 
 .deal_info_content_boxes .deal_info_img_boxes {
@@ -1021,40 +1026,4 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.prodact_content_box span {
-  color: rgb(98, 105, 116);
-  font-family: Jost;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0%;
-  text-align: left;
-  text-transform: uppercase;
-}
-
-.prodact_content_box .product_desc {
-  color: rgb(4, 30, 66);
-  font-family: Jost;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: left;
-}
-
-.prodact_content_box .review_box img {
-  width: 20px;
-  height: 10px;
-}
-
-.prodact_content_box .review_box span {
-  position: relative;
-  color: rgb(98, 105, 116);
-  font-family: Jost;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0%;
-  text-align: left;
 }
