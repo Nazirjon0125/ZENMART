@@ -88,7 +88,7 @@
 
   display: flex;
 
-  background-image: url(/public/images/backgraund/young-woman-with-laptop.png);
+  background-image: url(../public/images/backgraund/young-woman-with-laptop.png);
 }
 
 .backgraund_img_product .product_img_info_box {
