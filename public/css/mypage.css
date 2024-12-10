@@ -1,13 +1,412 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
+/* bottom_boxes */
+.container .bottom_boxes {
+  position: relative;
+  margin-top: 20px;
+  width: 206px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-a {
-  text-decoration: none;
+.container .bottom_boxes .bottom_update_box {
+  position: relative;
+  width: 118px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(245, 195, 75);
+  border-radius: 6px;
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+  background: rgb(245, 195, 75);
 }
 
-p {
+.container .bottom_boxes .bottom_cancel_box {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+/* click_box */
+.container .click_box {
+  position: relative;
+
+  width: 352px;
+  height: 28px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .click_box a {
+  color: rgb(98, 105, 116);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.click_box a:hover {
+  border-bottom: 2px solid rgb(4, 30, 66);
+}
+
+.click_box a.active {
+  border-bottom: 2px solid rgb(4, 30, 66);
+}
+/* my page */
+.my_page_frame {
+  position: relative;
+  margin-top: 107px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 35px;
+}
+
+.my_page_frame .container {
+  flex-direction: row;
+}
+
+.my_page_frame .container .my_info_page {
+  position: relative;
+  margin-right: 64px;
+  width: 200px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .container .my_info_page .my_account {
+  position: relative;
+  width: 100%;
+  height: 61px;
+
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.my_page_frame .my_info_page .my_account img {
+  position: relative;
+  margin-right: 10px;
+  width: 37.74px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.my_page_frame .my_info_page .my_account div {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .my_info_page .my_account div span {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.my_page_frame .my_info_page .my_account div p {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.my_page_frame .container .my_account_main {
+  position: relative;
+  margin-top: 10px;
+  width: 140px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .container .my_account_main div {
+  position: relative;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.my_page_frame .container .my_account_main div p {
+  margin-left: 12px;
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.my_page_frame .container .account_details {
+  position: relative;
+  width: 1060px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .container .account_details h1 {
+  position: relative;
   margin: 0;
+  display: flex;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+
+.my_page_frame .container .account_details .profile_box {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.my_page_frame .container .account_details .profile_box .click_box {
+  position: relative;
+
+  width: 352px;
+  height: 28px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.my_page_frame .profile_box .click_box a {
+  color: rgb(98, 105, 116);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.my_page_frame .click_box a:hover {
+  border-bottom: 2px solid rgb(4, 30, 66);
+}
+
+.my_page_frame .click_box a.active {
+  border-bottom: 2px solid rgb(4, 30, 66);
+}
+
+.my_page_frame .profile_box .my_full_info_box {
+  position: relative;
+  margin-top: 30px;
+  width: 1058px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.my_page_frame .profile_box .my_full_info_box form {
+  position: relative;
+  margin-top: 20px;
+  width: 517px;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .my_full_info_box form label {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.my_page_frame .my_full_info_box form input {
+  width: 517px;
+  height: 55px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+}
+
+.my_page_frame .profile_box .password_box {
+  position: relative;
+  margin-top: 30px;
+  width: 1058px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .profile_box .password_box form {
+  position: relative;
+  margin-top: 20px;
+  width: 517px;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .password_box form label {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.my_page_frame .password_box form input {
+  width: 556px;
+  height: 55px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+}
+
+.my_page_frame .account_details .permissions_boxes {
+  position: relative;
+  margin-top: 30px;
+  width: 726px;
+  height: 406px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .permissions_boxes .permissions_info {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .permissions_info .permision_info_boxes {
+  position: relative;
+  width: 726px;
+  height: 77px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.my_page_frame .permissions_info .permission_info_box {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .permissions_info .permission_info_box p {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.my_page_frame .permissions_info .permission_info_box span {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.my_page_frame .permission_bottom_box {
+  position: relative;
+  width: 59px;
+  height: 30px;
+
+  margin: 26px 6px 21px 0;
+
+  border-radius: 30px;
+  background: rgb(243, 245, 246);
+}
+
+.my_page_frame .permission_bottom_box div {
+  position: absolute;
+  width: 25.39px;
+  height: 25px;
+  left: 8%;
+  right: 55%;
+  top: 10%;
+  bottom: 12%;
+
+  border-radius: 200px;
+
+  box-shadow: 0px 2px 2px 0px rgba(17, 33, 55, 0.1);
+  background: rgb(255, 255, 255);
+}
+
+.my_page_frame .active_box {
+  position: relative;
+  width: 59px;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin: 26px 6px 21px 0;
+
+  border-radius: 30px;
+  background: rgb(4, 30, 66);
+}
+
+.my_page_frame .active_box .active {
+  position: absolute;
+  width: 25.39px;
+  height: 25px;
+  left: 50.67%;
+  right: 13.33%;
+  top: 13%;
+  bottom: 10%;
+
+  border-radius: 200px;
+
+  background: rgb(255, 255, 255);
 }
