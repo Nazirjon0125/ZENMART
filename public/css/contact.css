@@ -10,6 +10,12 @@
   flex-direction: column;
 }
 
+.contact_frame iframe {
+  position: relative;
+  width: 1940px;
+  height: 600px;
+}
+
 .container .contact_boxes {
   position: relative;
   margin-top: 60px;
